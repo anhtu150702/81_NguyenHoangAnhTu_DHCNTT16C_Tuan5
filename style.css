@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+body{
+    background-image: url(../img/backgroundweb.jpg);
+}
+.wrapper{
+    height: 800px;
+    width: 1089px;
+    background-color:rgb(231, 137, 13);
+}
+nav{
+    height: 50px;
+    width: 1089px;
+    line-height: 50px;
+    background-color: rgb(25, 95, 19);
+}
+
+header{
+    height: 150px;
+    width: 1089px;
+    background-image: url(../img/header.jpg);
+    text-align: center;
+    line-height: 150px;
+    font-size: 100px;
+    color: rgb(119, 0, 255);
+    text-shadow: 2px 2px 2px #c01;
+}
+.content{
+    height: 400px;
+    width: 1089px;
+    background-color: rgb(180, 15, 15);
+}
+aside{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(230, 247, 1);
+    float: left;
+}
+.content aside article h5{
+    position: absolute;
+    font-weight: bold;
+    color: rgb(22, 133, 238);
+    text-shadow: 10px 20px 20px rgb(139, 25, 139);
+
+}
+section{
+    height: 400px;
+    width: 689px;
+    background-color: rgb(252, 113, 206);
+    float: left;
+}
+.menu li{
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    text-indent: 20px;
+    background-color: rgb(243, 127, 127);
+    position: relative;
+}
+a{
+    color: rgb(43, 247, 134);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: rebeccapurple;
+}
+
+li:hover>a{
+    color: greenyellow;
+    font-style: italic;
+}
+
+.menu li .submenu{
+    display: none;
+    position: absolute;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+nav span form #txtEmail{
+    padding: 3px;
+    color: blueviolet
+}
+nav span form #btnGO{
+    padding: 3px;
+    color: orange;
+    border-radius: 50%;
+    text-shadow: 2px 2px 2px #c01;
+}
